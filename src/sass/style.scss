@@ -1,0 +1,10 @@
+// common
+@import "./common/reset";
+@import "./common/variables";
+@import "./common/mixins";
+@import "./common/media";
+@import "./common/fonts";
+@import "./common/global";
+//blocks
+@import "../pug/blocks/header/header.scss";
+@import "../pug/blocks/footer/footer.scss";
