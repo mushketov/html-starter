@@ -1,6 +1,10 @@
-const fs = require('fs')
-const path = require('path')
-const program = require('commander')
+import fs from 'fs'
+
+import path from 'path'
+
+import { Command } from 'commander'
+const program = new Command()
+
 program
 	.option('-s, --styles', 'Create section file component.scss')
 	.option('-p, --page', 'Create page file component.pug in src/pug/pages')

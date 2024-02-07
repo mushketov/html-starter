@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+*, *::after, *::before {
+    box-sizing: border-box;
+}
+
+body {
+    font-weight: 400;
+}
+
+body.no-scroll {
+    overflow: hidden;
+}
+
+svg,
+img,
+video {
+    display: block;
+    width: 100%;
+    height: auto;
+    -o-object-fit: cover;
+    object-fit: cover;
+}
+
+span,
+label,
+a,
+button,
+textarea,
+input {
+    display: inline-block;
+    font-family: inherit;
+}
+
+a,
+button,
+textarea,
+input {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+@font-face {
+    font-family: '';
+  src: url();
+}
+
+@keyframes fade {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+body {
+    font-size: 16px;
+    color: #fff;
+    background: #2b2b2b;
+}
+
+.container {
+    max-width: 1280px;
+    padding: 0 20px;
+    width: 100%;
+    margin: 0 auto;
+}
