@@ -1,9 +1,22 @@
 extends ../layouts/main.pug
-block content 
-    .container 
-        p default font: Lorem ipsum dolor sit amet.
-        h1 default title: Lorem ipsum dolor sit amet.
-        button.btn.btn-primary(type='submit') Submit
-        div 
+block content
+    .container
+        .block
+            h2 #TEXT
+            p default font: Lorem ipsum dolor sit amet.
+            h1 default title: Lorem ipsum dolor sit amet.
+            h1 default title: Lorem ipsum dolor sit amet.
+        .block
+            h2 #BUTTONS
+            p .btn-primary & .btn-primary:disabled
+            button.btn-primary(type='submit') Submit
+            button.btn-primary(type='submit')(disabled) Submit
+            p .btn-secondary & .btn-secondary:disabled
+            button.btn-secondary(type='submit') Submit
+            button.btn-secondary(type='submit')(disabled) Submit
+        .block
+            h2 #INPUTS
             input(type="text")
-            p a(href="#") default link: Lorem, ipsum dolor.
+        .block
+            h2 #LINKS
+            a(href="#") default link: Lorem, ipsum dolor.

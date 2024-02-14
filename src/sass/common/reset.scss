@@ -1,4 +1,4 @@
-* {
+*, html {
 	margin: 0;
 	padding: 0;
 	&,
@@ -8,8 +8,6 @@
 	}
 }
 body {
-	// font-family: $roboto;
-	font-weight: 400;
 	&.no-scroll {
 		overflow: hidden;
 	}
@@ -31,10 +29,4 @@ input {
 	display: inline-block;
 	font-family: inherit;
 }
-a,
-button,
-textarea,
-input {
-	text-decoration: none;
-	cursor: pointer;
-}
+

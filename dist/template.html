@@ -7,17 +7,29 @@
     <title>Document</title>
   </head>
   <body> 
-    <header class="header">div header</header>
     <div class="container"> 
-      <p>default font: Lorem ipsum dolor sit amet.</p>
-      <h1>default title: Lorem ipsum dolor sit amet.</h1>
-      <button class="btn btn-primary" type="submit">Submit</button>
-      <div> 
+      <div class="block"> 
+        <h2>#TEXT</h2>
+        <p>default font: Lorem ipsum dolor sit amet.</p>
+        <h1>default title: Lorem ipsum dolor sit amet.</h1>
+      </div>
+      <div class="block">
+        <h2>#BUTTONS</h2>
+        <p>.btn-primary & .btn-primary:disabled</p>
+        <button class="btn-primary" type="submit">Submit</button>
+        <button class="btn-primary" type="submit" disabled>Submit</button>
+        <p>.btn-secondary & .btn-secondary:disabled</p>
+        <button class="btn-secondary" type="submit">Submit</button>
+        <button class="btn-secondary" type="submit" disabled>Submit</button>
+      </div>
+      <div class="block">
+        <h2>#INPUTS</h2>
         <input type="text">
-        <p>a(href="#") default link: Lorem, ipsum dolor.</p>
+      </div>
+      <div class="block">
+        <h2>#LINKS</h2><a href="#">default link: Lorem, ipsum dolor.</a>
       </div>
     </div>
-    <footer class="footer">div footer</footer>
     <script src="./js/main.js"></script>
   </body>
 </html>

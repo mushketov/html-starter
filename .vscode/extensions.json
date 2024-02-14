@@ -1,0 +1,21 @@
+{
+	"recommendations": [
+		"rebornix.project-snippets",
+		"Atishay-Jain.All-Autocomplete",
+		"usernamehw.errorlens",
+		"mhutchie.git-graph",
+		"ecmel.vscode-html-css",
+		"anteprimorac.html-end-tag-labels",
+		"oderwat.indent-rainbow",
+		"ritwickdey.LiveServer",
+		"techer.open-in-browser",
+		"christian-kohler.path-intellisense",
+		"esbenp.prettier-vscode",
+		"amandeepmittal.pug",
+		"syler.sass-indented",
+		"albert.TabOut",
+		"shardulm94.trailing-spaces",
+		"navin-moorthy.vscode-css-snippets",
+		"glenn2223.live-sass"
+	]
+}

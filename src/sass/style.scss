@@ -4,7 +4,13 @@
 @import "./common/mixins";
 @import "./common/media";
 @import "./common/fonts";
+@import "./common/mixins";
+@import "./common/media";
 @import "./common/global";
+@import "./common/anims";
+@import "./common/reset";
+@import "./common/variables";
+@import "./common/template";
 //blocks
 @import "../pug/blocks/header/header.scss";
 @import "../pug/blocks/footer/footer.scss";
